@@ -1,13 +1,8 @@
 # Documentation
 
 #### Robert McKenzie
-#### Fall Semester 2021
+#### ASL Translator
 
-Welcome to my CS50 Final Project!
-
-For my final project, I built a web-app that turns JPEG or PNG files of signs in American Sign Language and converts those signs into text! At this stage, it only works one letter at a time, but the project could be scaled to translate whole words, perhaps using video files. The app can also convert pictures of the ASL digits from 1-9 into Arabic numbers.
-
-Video: https://youtube.com/shorts/p_fJ7B2ZD5s?feature=share
 
 Before using the app, you must make one change to the source code. The app stores files on local disk, in an upload folder. I declare the path to this folder in a variable called *UPLOAD_FOLDER* right at the top of app.py, and you must change that path to the appropriate folder on your own machine when you download the app. Just right-click on the uploads folder, select copy path, and paste that path into the declaration of *UPLOAD_FOLDER*. You will also need to download the sklearn and sk-image packages to load and run the model. 
 
